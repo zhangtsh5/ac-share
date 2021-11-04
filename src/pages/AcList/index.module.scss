@@ -1,0 +1,143 @@
+ul,li{ padding:0;margin:0;list-style:none} //默认样式清除
+a,a:hover{text-decoration: none}
+.acList{
+  height: 570px;
+  overflow: auto; //设置scroll overflow
+  -webkit-overflow-scrolling: touch; // 优化移动端滑动体验
+  .itemWrap{
+    border-bottom: 1px solid #E8E8E8;
+    //background-color: beige;
+    //height:200px;
+    width:304px; //304px
+    margin:16px 0 0 16px;
+    position: relative;
+    //padding-bottom: 18px;
+    .topInfo{
+      height:20px;
+      //background-color: red;
+      position: relative;
+      .img{
+        border-radius: 50%;
+        position: absolute;
+        left:0;
+        top:0;
+        background-color: #61dafb;
+        width:20px;
+        height:20px;
+      }
+      .username{
+        position: absolute;
+        left:28px;
+        top:3px;
+        height:15px;
+        //border: 1px solid black;
+        font-size: 12px;
+        color: #67616D;
+      }
+      .channel{
+        position: absolute;
+        right:16px;
+        top:0;
+        height:15px;
+        //background-color: aliceblue;
+        padding: 2px 6px 3px 10px;
+        font-size: 12px;
+        color:#8560A9;
+        border: 1px solid #D3C1E5;
+        border-radius: 10px;
+      }
+    }
+
+    .titleAndTimeWrap{
+      width: 288px;
+      margin-top: 10px;
+      box-sizing: border-box;
+      //padding-right: 72px;
+      .wrapLeft{
+        display: inline-block;
+        //margin-right: 20px;
+        width: 216px;
+        .title{
+          //width:100px;
+          //height:46px;
+          //background-color: #D5EF7F;
+          font-size: 18px;
+          color: #453257;
+          font-family: Arial;
+          font-weight: bold;
+        }
+        .time{
+          height:15px;
+          margin-top:8px;
+          display: flex;
+          align-items: center;
+          .clock{
+            display: inline-block;
+            width:12px;
+            height:12px;
+          }
+          .date{
+            display: inline-block;
+            position: absolute;
+            margin-left:17px;
+            font-size: 12px;
+            color: #8560A9;
+            font-family: Arial;
+          }
+        }
+      }
+      .picture{
+        display: inline-block;
+        //border: 1px solid red;
+        float: right;
+        width:64px;
+        height:64px;
+      }
+
+    }
+
+    .detail{
+      display: inline-block;
+      //background-color: coral;
+      margin:12px 16px 12px 0;
+      font-size: 14px;
+      //line-height: 10px;
+      font-family: "Apple SD Gothic Neo";
+      color: #67616D;
+    }
+    .operate{
+      height:15px;
+      margin-bottom: 18px;
+      //background-color: #61dafb;
+      position: relative;
+      .goLogo{
+        position: absolute;
+        left:0;
+        bottom: 2.2px;
+        width:12px;
+        height:10px;//需要注释掉
+      }
+      .going{
+        position: absolute;
+        left: 17px;
+        top:0;
+        font-size: 12px;
+        color: #453257;
+      }
+      .likeLogo{
+        position: absolute;
+        left:104px;
+        bottom: 2.2px;
+        width:10px;
+        height:10px;//需要注释掉
+      }
+      .like{
+        position: absolute;
+        top:0;
+        left:120px;
+        font-size: 12px;
+        color: #453257;
+      }
+    }
+  }
+}
