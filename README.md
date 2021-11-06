@@ -1,6 +1,6 @@
 # ac-share
 
-React entry-task
+An React demo
 
 ## 使用技术栈
 
