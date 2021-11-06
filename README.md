@@ -1,6 +1,6 @@
 # ac-share
 
-An React demo
+A React demo
 
 ## 使用技术栈
 
